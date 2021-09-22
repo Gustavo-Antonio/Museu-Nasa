@@ -1,0 +1,126 @@
+body{
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p , li{
+    color: black;
+    font-size: 26px;
+}
+
+
+
+/* INÍCIO ESTILIZAÇÃO DA BARRA DE NAVEGAÇÃO (NAVBAR) */
+
+header, .navbar{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+#logo{
+    width: 210px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: white;
+
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}   
+
+
+/* FIM ESTILIZAÇÃO DA BARRA DE NAVEGAÇÃO (NAVBAR) */
+
+
+/* COMEÇO DA ESTILIZAÇÃO DO BANNER PRINCIPAL */
+
+
+
+.banner{
+    width: 100%;
+    background-image: url(../imgs/imagem-visita-1.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.banner h1{
+    width: 100%;
+    color: white;
+    font-size: 75px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.banner p{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner button{
+    color: #FFF;
+    background-color: #00ac81;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 300px;
+    padding: 18px 78px 18px;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 2.5px solid white;
+    margin-top: 1.5%;
+    outline: none !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* FIM DA ESTILIZAÇÃO DO BANNER PRINCIPAL */
+
+/* COMEÇO DA ESTILIZAÇÃO DO MID-CONTENT */
+
+

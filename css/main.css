@@ -1,0 +1,367 @@
+body{
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p , li{
+    color: black;
+    font-size: 26px;
+}
+
+
+
+/* INÍCIO ESTILIZAÇÃO DA BARRA DE NAVEGAÇÃO (NAVBAR) */
+
+header, .navbar{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+#logo{
+    width: 210px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: white;
+
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}   
+
+
+/* FIM ESTILIZAÇÃO DA BARRA DE NAVEGAÇÃO (NAVBAR) */
+
+
+/* COMEÇO DA ESTILIZAÇÃO DO BANNER PRINCIPAL */
+
+
+
+.banner{
+    width: 100%;
+    background-image: url(../imgs/Banner\ Logo.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.banner h1{
+    width: 100%;
+    color: white;
+    font-size: 75px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.banner p{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner button{
+    color: #FFF;
+    background-color: #0b3d91;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 300px;
+    padding: 18px 78px 18px;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 2.5px solid white;
+    margin-top: 1.5%;
+    outline: none !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* FIM DA ESTILIZAÇÃO DO BANNER PRINCIPAL */
+
+/* COMEÇO DA ESTILIZAÇÃO DO MID-CONTENT */
+
+
+.mid-content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+
+
+.lado-b{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 0%;
+    margin-left: 5%;
+
+}
+
+.lado-b p{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width: 750px){
+
+    .mid-content{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex: auto;
+        margin-bottom: 45%;
+    }
+    
+
+    .lado-b{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 5%;
+        margin-top: 10%;
+        
+
+    }
+
+    i{
+        height: 0;
+    }
+
+    #imagem{
+        width: 60%;
+    }
+
+    .lado-b p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+}
+
+/* FIM DA ESTILIZAÇÃO DO MID-CONTENT */
+
+/* COMEÇO DA ESTILIZAÇÃO DO BANNER COM PROJETOS */
+
+
+#banner-projetoNasa{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imgs/Nasa\ Projects.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+/* FIM DA ESTILIZAÇÃO DO BANNER COM PROJETOS */
+
+
+
+/* COMEÇO DA ESTILIZAÇÃO DO FINAL CONTENT */
+
+
+.final-content{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.final-content h1{
+    height: 0px;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+
+}
+
+.final-content h2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    height: 0px;
+}
+
+
+.final-content button{
+    height: 65px;
+    color: #FFF;
+    background-color: #c20000;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 100px;
+    padding: 12px 78px 12px;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 2.5px solid black;
+    font-family: 'Poppins', sans-serif;
+    outline: none !important;
+}
+
+
+/* FIM DA ESTILIZAÇÃO DO FINAL CONTENT */
+
+
+/* COMEÇO DA ESTILIZAÇÃO DO RODAPÉ */
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 1.5s;
+}
+.anime-start {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+.facha{
+    display: flex;
+    flex-flow: row nowrap;  
+    background-color:  #ececec;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+
+}
+.jumper{
+    margin-top: 2%;
+}
+.lista{
+    color: white;
+    text-decoration:none;
+}
+.lista:hover{
+    color: #eef0d3;
+    font-size: 110%;
+}
+.input{
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.input3{
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 16px 50px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+
+.input3:hover{
+    color: #eef0d3;
+    font-size: 105%;    
+}
+.img-right{
+    float: right;
+}
+.img-left{
+    float: left;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #41454a;
+}
+::-webkit-scrollbar {
+	width: 6px;
+	background: #41454a;
+}
+::-webkit-scrollbar-thumb {
+	background: #212326;
+}
