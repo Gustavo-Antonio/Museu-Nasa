@@ -187,7 +187,7 @@ catch(Exception $e){
 	</div>
 
 	<hr style="background-color: black; width: 75%;">
-	<div style="color: #ff3333;"><center><b><i>Coypyright © todos direitos reservados - Everything We Do, We Make it Big</i></b></center></div>
+	<div style="color: #ff3333;"><center><b><i>Coypyright © todos direitos reservados - Gustavo Antonio</i></b></center></div>
 
 </footer>
 
